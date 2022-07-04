@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,
+*::before,
+*::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,
+:active {
+    outline: none;
+}
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+button {
+    cursor: pointer;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    background-color: rgb(17, 215, 205);
+
+    .info {
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+        .info_ul {
+            font-size: 25px;
+            font-family: "Alegreya", serif;
+            color: #0515d4;
+        }
+    }
+    .logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .logo_p {
+            font-family: "Courgette", cursive;
+            font-size: 100px;
+            color: rgb(95, 6, 190);
+            text-shadow: -7px 8px 6px #fb23cc;
+            text-transform: capitalize;
+            letter-spacing: 15px;
+        }
+        .logo_p_one {
+            font-size: 20px;
+            letter-spacing: 3px;
+            color: #1025df;
+            font-weight: bold;
+        }
+    }
+    .header__auth {
+        display: flex;
+        align-items: center;
+        align-self: flex-start;
+
+        .button_input {
+            background-color: rgb(95, 6, 190);
+            color: white;
+            font-size: 20px;
+            font-family: "Alegreya", serif;
+            cursor: pointer;
+            padding: 2px 20px 6px 20px;
+            border-radius: 20px;
+            border: solid 1px rgb(95, 6, 190);
+            letter-spacing: 1px;
+        }
+        .button_input:hover {
+            background-color: white;
+            color: rgb(95, 6, 190);
+            border-color: black;
+        }
+        .button_registration {
+            border: solid 1px red;
+
+            padding: 2px 20px 6px 20px;
+            background-color: #fb23cc;
+            color: white;
+            font-size: 20px;
+            font-family: "Alegreya", serif;
+            cursor: pointer;
+            margin: 15px 20px;
+            border-radius: 20px;
+            border-radius: 20px;
+            border: solid 1px #fb23cc;
+            letter-spacing: 1px;
+        }
+        .button_registration:hover {
+            background-color: white;
+            color: #fb23cc;
+            border-color: black;
+        }
+    }
+}
+
+.stock {
+    height: 50px;
+    background-color: #f825ca;
+
+    .stock_p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 45px;
+        font-family: "Alegreya", serif;
+        color: aliceblue;
+        animation: marquee 15s linear infinite;
+    }
+}
