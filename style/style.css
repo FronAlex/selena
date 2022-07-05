@@ -216,4 +216,27 @@ header .header__auth .button_registration:hover {
   -webkit-animation: marquee 15s linear infinite;
           animation: marquee 15s linear infinite;
 }
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+nav .navigation {
+  font-family: "Alegreya", serif;
+  font-size: 36px;
+  line-height: 15px;
+  margin-left: 80px;
+  cursor: pointer;
+  color: #1025df;
+}
+
+nav .navigation:hover {
+  color: #f825ca;
+}
 /*# sourceMappingURL=style.css.map */

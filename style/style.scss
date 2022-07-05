@@ -172,3 +172,20 @@ header {
         animation: marquee 15s linear infinite;
     }
 }
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    .navigation {
+        font-family: "Alegreya", serif;
+        font-size: 36px;
+        line-height: 15px;
+        margin-left: 80px;
+        cursor: pointer;
+        color: #1025df;
+    }
+    .navigation:hover {
+        color: #f825ca;
+    }
+}
