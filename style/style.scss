@@ -126,6 +126,7 @@ h6 {
 
 .header {
     position: fixed;
+    z-index: 2;
     left: 0;
     top: 0;
     display: grid;
@@ -165,6 +166,52 @@ h6 {
             border: solid 3px;
             padding: 10px 20px;
             margin-left: 30px;
+        }
+    }
+}
+
+.second_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    background-image: url(../img/дерево.jpg);
+    background-size: cover;
+    height: 100vh;
+    .second_section_container {
+        .second_section_h2 {
+            font-size: 40px;
+            line-height: 20px;
+            color: white;
+            letter-spacing: 6px;
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: "Lobster", cursive;
+        }
+        .photo_frame {
+            width: 400px;
+            height: 400px;
+            background-image: url(../img/ногти.jpg);
+            background-size: cover;
+            border: solid 30px rgb(112, 2, 2);
+            border-image-source: url(../img/море.jpg);
+            border-image-slice: 6%;
+            border-image-repeat: round;
+        }
+    }
+
+    .about_Us {
+        max-width: 400px;
+        .about_Us_h2 {
+            font-family: "Lobster", cursive;
+            line-height: 20px;
+            font-size: 40px;
+            color: white;
+            margin-bottom: 20px;
+        }
+        .about_Us_p {
+            color: white;
+            font-size: 20px;
         }
     }
 }
